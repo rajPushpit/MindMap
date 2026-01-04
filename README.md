@@ -1,6 +1,6 @@
 # MindMap – Frontend
 
-## 📌 Overview
+##  Overview
 This project implements an interactive, data-driven mind map UI that visualizes
 hierarchical frontend concepts.
 
@@ -12,7 +12,16 @@ The mind map supports:
 - Local data persistence
 - Reset data to original JSON
 
----
+##  Features
+- Fully data-driven mind map (JSON-based)
+- Recursive SVG rendering
+- Expand / collapse nodes
+- Hover tooltips with preview text only
+- Side panel for full node editing
+- Fit to View & Reset View controls
+- Persistent edits using localStorage
+- Reset to original data
+
 
 ## 🛠 Technologies Used
 - **React** – Component-based UI
@@ -23,15 +32,20 @@ The mind map supports:
 
 ---
 
-## 📚 Libraries Used
-- **React Hooks** (`useState`, `useEffect`, `useRef`, `useLayoutEffect`)  
-  → For state management, DOM measurement, and UI updates
-- **LocalStorage API**  
-  → To persist edited mind map data
+##  Libraries Used 
+React
+Used for building a component-based, interactive UI
+Enables declarative rendering and efficient state updates
+Makes the mind map modular (MindMap, SidePanel, App)
 
+**React Hooks** (`useState`, `useEffect`, `useRef`, `useLayoutEffect`)  
+  → For state management, DOM measurement, and UI updates
+  
+  **LocalStorage API**  
+  → To persist edited mind map data
 ---
 
-## 🧠 Architecture & Approach
+##  Architecture & Approach
 - The mind map data is stored in a hierarchical JSON structure.
 - Each node contains `id`, `title`, `summary`, and `children`.
 - The tree is rendered recursively using SVG elements.
@@ -42,7 +56,7 @@ The mind map supports:
 
 ---
 
-## 🔄 Data Flow
+##  Data Flow
 1. Initial data is loaded from `mindmap.json`
 2. Data is stored in React state (`useMindMap` hook)
 3. SVG renders the tree recursively
@@ -52,7 +66,7 @@ The mind map supports:
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Step 1: Go to project directory
 ```bash
