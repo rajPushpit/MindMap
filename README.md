@@ -1,7 +1,7 @@
 # MindMap – Frontend
 
 ## Live linl (Deployed)
-![link](https://mind-map-git-main-rajpushpits-projects.vercel.app/)
+![link](https://mind-zle3ms565-rajpushpits-projects.vercel.app/)
 
 ##  Overview
 This project implements an interactive, data-driven mind map UI that visualizes
