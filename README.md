@@ -8,6 +8,9 @@ hierarchical frontend concepts.
 
 [View Live App](https://mind-map-git-main-rajpushpits-projects.vercel.app/)
 
+## Video Demo
+[Watch Video](https://drive.google.com/file/d/1mTsMOvXEOXWYiOy0WMzhzAqlzMj6BcfV/view?usp=drive_link)
+
 
 The mind map supports:
 - Expand / Collapse nodes
