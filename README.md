@@ -12,6 +12,14 @@ The mind map supports:
 - Local data persistence
 - Reset data to original JSON
 
+## Screenshots
+![Screenshot_1](images/screenshot1.png)
+![Screenshot 2](images/screenshot2.png)
+![Screenshot 3](images/screenshot3.png)
+![Screenshot 4](images/screenshot4.png)
+![Screenshot 5](images/screenshot5.png)
+
+
 ##  Features
 - Fully data-driven mind map (JSON-based)
 - Recursive SVG rendering
