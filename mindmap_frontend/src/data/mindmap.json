@@ -1,0 +1,138 @@
+{
+  "id": "root",
+  "title": "Frontend",
+  "summary": "Overview of frontend architecture",
+  "children": [
+    {
+      "id": "ui",
+      "title": "UI Layer",
+      "summary": "Components and layouts",
+      "children": [
+        {
+          "id": "buttons",
+          "title": "Buttons",
+          "summary": "Reusable button components",
+          "children": [
+            {
+              "id": "primary",
+              "title": "Primary Button",
+              "summary": "Main action button",
+              "children": []
+            },
+            {
+              "id": "secondary",
+              "title": "Secondary Button",
+              "summary": "Secondary action button njknnfnkjnf fnjv vkjskfuihskfnkjbfui",
+              "children": [
+                {
+                  "id": "iconButton",
+                  "title": "Icon Button",
+                  "summary": "Button with icon",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "colors",
+          "title": "Colors",
+          "summary": "Changing color themes",
+          "children": [
+            {
+              "id": "light",
+              "title": "Light Theme",
+              "summary": "Light color scheme",
+              "children": []
+            },
+            {
+              "id": "dark",
+              "title": "Dark Theme",
+              "summary": "Dark color scheme",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "state",
+      "title": "State Management",
+      "summary": "Application state handling",
+      "children": [
+
+        {
+          "id": "context",
+          "title": "Context API",
+          "summary": "Using React Context for state",
+          "children": [
+            {
+              "id": "userContext",
+              "title": "User Context",
+              "summary": "Managing user state",
+              "children": []
+            },
+            {
+              "id": "themeContext",
+              "title": "Theme Context",
+              "summary": "Managing theme state",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "redux",
+          "title": "Redux",
+          "summary": "State management with Redux",
+          "children": [
+            {
+              "id": "actions",
+              "title": "Actions",
+              "summary": "Defining Redux actions",
+              "children": [
+                {
+                  "id": "loginAction",
+                  "title": "Login Action",
+                  "summary": "Action for user login",
+                  "children": [
+                    {
+                      "id": "oauthLogin",
+                      "title": "OAuth Login",
+                      "summary": "Login using OAuth",
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "id": "logoutAction",
+                  "title": "Logout Action",
+                  "summary": "Action for user logout",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "id": "reducers",
+              "title": "Reducers",
+              "summary": "Defining Redux reducers",
+              "children": [
+                {
+                  "id": "authReducer",
+                  "title": "Auth Reducer",
+                  "summary": "Handles authentication state",
+                  "children": []
+                },
+                {
+                  "id": "themeReducer",
+                  "title": "Theme Reducer",
+                  "summary": "Handles theme state",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

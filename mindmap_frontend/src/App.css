@@ -1,0 +1,23 @@
+.app-layout {
+  display: flex;
+  height: 100vh;        /* full viewport height */
+  overflow: hidden;     /* prevent page scrolling */
+}
+
+/* Mindmap area */
+.canvas-area {
+  flex: 1;
+  overflow: auto;       /* ONLY this scrolls */
+  background: #f9fafb;
+}
+
+/* Side panel */
+.side-panel {
+  width: 320px;
+  border-left: 1px solid #ddd;
+  background: #fff;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;     /* side panel scrolls internally if needed */
+}
