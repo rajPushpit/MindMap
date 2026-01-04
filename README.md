@@ -4,6 +4,11 @@
 This project implements an interactive, data-driven mind map UI that visualizes
 hierarchical frontend concepts.
 
+##  Live Demo
+
+[View Live App](https://mind-map-git-main-rajpushpits-projects.vercel.app/)
+
+
 The mind map supports:
 - Expand / Collapse nodes
 - Hover tooltips (preview text only)
