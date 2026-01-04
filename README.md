@@ -88,6 +88,7 @@ http://localhost:5173
 ```
 
 ## Working Flow
+```text
 ┌──────────────────────┐
 │   mindmap.json       │
 │  (Structured Data)   │
@@ -120,10 +121,11 @@ http://localhost:5173
 │ - expand/collapse│   │  - selection     │
 └──────────────────┘   └──────────────────┘
 
-
+```
 
 
 ## INTERACTION FLOW DIAGRAM
+```test
 
 User Hover Node
      │
@@ -143,7 +145,7 @@ MindMap Re-renders
      │
      ▼
 SidePanel Updates
-
+```
 
 “The application is fully data-driven. The mindmap structure is stored in a JSON file, 
 which is loaded into a custom hook that manages all state and interactions. 
